@@ -4,5 +4,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("./src/index")],
+  plugins: [require("@dgshahr/dg-theme-tailwind-plugin")],
 };
