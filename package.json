@@ -1,7 +1,7 @@
 {
-  "name": "dg-theme-tailwind-plugin",
+  "name": "@dgshahr/dg-theme-tailwind-plugin",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
     "build-tailwind": "tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch"
