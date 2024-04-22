@@ -1,6 +1,7 @@
 const plugin = require("tailwindcss/plugin");
 const danaFont = require("../assets/fonts");
-const dgColors = require("./constants/colors");
+const colors = require("./constants/colors");
+const shadows = require("./constants/shadows");
 const utilities = require("./utilities");
 
 const DgThemeTailwindPlugin = plugin(
@@ -11,9 +12,8 @@ const DgThemeTailwindPlugin = plugin(
   {
     theme: {
       extend: {
-        colors: {
-          ...dgColors,
-        },
+        colors: colors,
+        boxShadow: shadows,
       },
     },
   }
