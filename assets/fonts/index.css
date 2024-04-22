@@ -1,0 +1,156 @@
+/**
+*
+*	Name:			DANA Fonts
+*	Version:			3.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		nov 12, 2021
+*	Updated on:		nov 12, 2021
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت دانا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+DANA fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- fonts/-
+*	
+**/
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 10;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Hairline.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Hairline.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 100;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Thin.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Thin.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 200;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-UltraLight.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-UltraLight.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 300;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Light.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Light.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 500;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Medium.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Medium.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 600;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-DemiBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-DemiBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 800;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-ExtraBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-ExtraBold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 900;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Black.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Black.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 930;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-ExtraBlack.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-ExtraBlack.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 960;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Heavy.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Heavy.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 990;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Fat.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Fat.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: bold;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Bold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Bold.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Regular.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Regular.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+* {
+  font-family: dana, sans-serif;
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}

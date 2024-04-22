@@ -4,7 +4,8 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "build-tailwind": "tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch"
+    "build-tailwind": "tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch",
+    "build-font": "prejss-cli ./assets/fonts/index.css --format commonjs"
   },
   "dependencies": {
     "tailwindcss": "^3.4.3"
