@@ -800,6 +800,21 @@ video {
   color: rgb(0 155 157 / var(--tw-text-opacity));
 }
 
+.text-secondary-400 {
+  --tw-text-opacity: 1;
+  color: rgb(124 203 207 / var(--tw-text-opacity));
+}
+
+.text-primary-500 {
+  --tw-text-opacity: 1;
+  color: rgb(40 82 228 / var(--tw-text-opacity));
+}
+
+.text-secondary-500 {
+  --tw-text-opacity: 1;
+  color: rgb(0 186 188 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
