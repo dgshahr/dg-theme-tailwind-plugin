@@ -6,11 +6,11 @@
   "scripts": {
     "run:tailwind": "tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch",
     "dev": "yarn link @dgshahr/dg-theme-tailwind-plugin && yarn run:tailwind",
-    "build:font": "prejss-cli ./assets/fonts/index.css --format commonjs",
+    "build:fonts": "prejss-cli ./assets/fonts/index.css --format commonjs",
     "build:utilities:css": "postcss ./src/utilities/imports.css -o ./src/utilities/index.css",
     "build:utilities:js": "prejss-cli ./src/utilities/index.css -format commonjs",
     "build:utilities": "yarn build:utilities:css && yarn build:utilities:js",
-    "build": "yarn build:font && yarn build:utilities"
+    "build": "yarn build:fonts && yarn build:utilities"
   },
   "dependencies": {
     "tailwindcss": "^3.4.3"
