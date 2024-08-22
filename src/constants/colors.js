@@ -38,7 +38,7 @@ module.exports = {
   warning: {
     50: "rgb(255 246 224 / <alpha-value>)",
     100: "rgb(254 233 178 / <alpha-value>)",
-    200: "rgb(154 222 142 / <alpha-value>)",
+    200: "rgb(254 222 142 / <alpha-value>)",
     300: "rgb(254 212 107 / <alpha-value>)",
     400: "rgb(253 199 63 / <alpha-value>)",
     500: "rgb(253 187 19 / <alpha-value>)",
