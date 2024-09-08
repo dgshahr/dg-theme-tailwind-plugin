@@ -1,0 +1,15 @@
+.dgs-scrollbar::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+.dgs-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dgs-scrollbar::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  border-radius: 9999px;
+  @apply bg-gray-500/25;
+}
