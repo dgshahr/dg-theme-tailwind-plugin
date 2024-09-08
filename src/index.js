@@ -12,6 +12,13 @@ const DgThemeTailwindPlugin = plugin(
       extend: {
         colors: colors,
         boxShadow: shadows,
+        container: {
+          center: true,
+          padding: {
+            DEFAULT: "1rem",
+            md: "1.5rem",
+          },
+        },
       },
     },
   }
