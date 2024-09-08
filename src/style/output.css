@@ -446,193 +446,6 @@ video {
   display: none;
 }
 
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 10;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Hairline.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Hairline.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 100;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Thin.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Thin.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 200;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-UltraLight.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-UltraLight.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 300;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Light.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Light.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 500;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Medium.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Medium.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 600;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-DemiBold.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-DemiBold.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 800;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-ExtraBold.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-ExtraBold.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 900;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Black.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Black.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 930;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-ExtraBlack.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-ExtraBlack.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 960;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Heavy.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Heavy.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: 990;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Fat.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Fat.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: bold;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Bold.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Bold.woff")
-      format("woff");
-}
-
-@font-face {
-  font-family: dana;
-
-  font-style: normal;
-
-  font-weight: normal;
-
-  src: url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff2/DanaFaNum-Regular.woff2")
-      format("woff2"),
-    
-      url("/node_modules/@dgshahr/dg-theme-tailwind-plugin/assets/fonts/woff/DanaFaNum-Regular.woff")
-      format("woff");
-}
-
-* {
-  font-family: dana, sans-serif;
-  font-feature-settings: "ss02";
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -741,6 +554,46 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .visible {
   visibility: visible;
 }
@@ -790,10 +643,6 @@ video {
   width: 2.5rem;
 }
 
-.w-\[1028px\] {
-  width: 1028px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -820,6 +669,15 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500\/25 {
+  background-color: rgb(100 116 139 / 0.25);
 }
 
 .px-4 {
@@ -894,243 +752,275 @@ video {
   outline-style: solid;
 }
 
-.text-display-light-1 {
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.font-display-light-1 {
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
   line-height: 56px;
 }
 
-.text-display-bold-1 {
+.font-display-bold-1 {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 56px;
 }
 
-.text-display-light-2 {
+.font-display-light-2 {
   font-size: 28px;
   font-style: normal;
   font-weight: 300;
   line-height: 48px;
 }
 
-.text-display-bold-2 {
+.font-display-bold-2 {
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
 }
 
-.text-h1-regular {
+.font-h1-regular {
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 56px;
 }
 
-.text-h1-bold {
+.font-h1-bold {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 56px;
 }
 
-.text-h2-regular {
+.font-h2-regular {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
 }
 
-.text-h2-bold {
+.font-h2-bold {
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
 }
 
-.text-h3-regular {
+.font-h3-regular {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
 
-.text-h3-bold {
+.font-h3-bold {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
 }
 
-.text-h4-regular {
+.font-h4-regular {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
 
-.text-h4-bold {
+.font-h4-bold {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
 }
 
-.text-h5-regular {
+.font-h5-regular {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
 }
 
-.text-h5-bold {
+.font-h5-bold {
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
 }
 
-.text-h6-regular {
+.font-h6-regular {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
 
-.text-h6-bold {
+.font-h6-bold {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
 
-.text-subheading-regular {
+.font-subheading-regular {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
 }
 
-.text-subheading-medium {
+.font-subheading-medium {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
 }
 
-.text-p1-regular {
+.font-p1-regular {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
 }
 
-.text-p1-medium {
+.font-p1-medium {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
 }
 
-.text-p1-underline {
+.font-p1-underline {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  text-decoration-line: underline;
+  font-decoration-line: underline;
 }
 
-.text-p2-regular {
+.font-p2-regular {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
 
-.text-p2-medium {
+.font-p2-medium {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
 }
 
-.text-p2-underline {
+.font-p2-underline {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  text-decoration-line: underline;
+  font-decoration-line: underline;
 }
 
-.text-p3-regular {
+.font-p3-regular {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
 
-.text-p3-medium {
+.font-p3-medium {
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
 }
 
-.text-p3-underline {
+.font-p3-underline {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  text-decoration-line: underline;
+  font-decoration-line: underline;
 }
 
-.text-button-large {
+.font-button-large {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
 
-.text-button-medium {
+.font-button-medium {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
 
-.text-button-small {
+.font-button-small {
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
 }
 
-.text-caption-regular {
+.font-caption-regular {
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
 
-.text-caption-demibold {
+.font-caption-demibold {
   font-size: 11px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
 }
 
-.text-oveline-regular {
+.font-oveline-regular {
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 12px;
 }
 
-.text-oveline-demibold {
+.font-oveline-demibold {
   font-size: 10px;
   font-style: normal;
   font-weight: 600;
   line-height: 12px;
+}
+
+.dgs-scrollbar::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+.dgs-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dgs-scrollbar::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: rgb(100 116 139 / 0.25);
 }
