@@ -19,6 +19,9 @@ const DgThemeTailwindPlugin = plugin(
             md: "1.5rem",
           },
         },
+        fontWeight: {
+          bold: 699,
+        },
       },
     },
   }
