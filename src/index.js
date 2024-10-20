@@ -1,11 +1,13 @@
 const plugin = require("tailwindcss/plugin");
 const colors = require("./constants/colors");
 const shadows = require("./constants/shadows");
+const base = require("./base");
 const utilities = require("./utilities");
 
 const DgThemeTailwindPlugin = plugin(
-  function ({ addUtilities }) {
+  function ({ addUtilities, addBase }) {
     addUtilities(utilities);
+    addBase(base);
   },
   {
     theme: {
