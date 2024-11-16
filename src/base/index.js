@@ -1,1 +1,1 @@
-export default {"::-webkit-scrollbar":{"width":"14px","height":"14px"},"::-webkit-scrollbar-track":{"background":"transparent"},"::-webkit-scrollbar-thumb":{"border":"4px solid transparent","backgroundClip":"padding-box","borderRadius":"9999px","@apply bg-gray-500/25":true}}
+export default {"::-webkit-scrollbar":{"width":"7px","height":"7px"},"::-webkit-scrollbar-track":{"background":"transparent"},"::-webkit-scrollbar-thumb":{"borderRadius":"9999px","@apply bg-gray-500/25":true}}
