@@ -9,5 +9,5 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 9999px;
-  @apply bg-gray-500/25;
+  background-color: rgb(100 116 139 / 0.25);
 }
