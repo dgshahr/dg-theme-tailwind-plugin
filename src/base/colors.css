@@ -1,17 +1,3 @@
-::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 9999px;
-  background-color: rgb(100 116 139 / 0.25);
-}
-
 :root {
   /* Primary */
   --dgs-color-primary-50: 240 243 255;
