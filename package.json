@@ -4,8 +4,6 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "run:tailwind": "npx @tailwindcss/cli -i ./src/style/input.css -o ./src/style/output.css --watch",
-    "dev": "yarn link @dgshahr/dg-theme-tailwind-plugin && yarn run:tailwind",
     "build:utilities:css": "postcss ./src/utilities/imports.css -o ./src/utilities/index.css",
     "build:utilities:js": "node src/scripts/css-to-js.js ./src/utilities",
     "build:utilities": "yarn build:utilities:css && yarn build:utilities:js",
@@ -15,9 +13,6 @@
     "build": "yarn build:utilities && yarn build:base"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.8",
-    "@tailwindcss/postcss": "^4.1.8",
-    "autoprefixer": "^10.4.19",
     "postcss": "^8.5.4",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
