@@ -1,5 +1,6 @@
 {
   "name": "@dgshahr/dg-theme-tailwind-plugin",
+  "version": "1.0.11",
   "description": "Tailwind CSS plugin for DGShahr theme",
   "author": "dgshahr",
   "contributes": [
@@ -17,7 +18,9 @@
   "bugs": {
     "url": "https://github.com/dgshahr/dg-theme-tailwind-plugin/issues"
   },
-  "version": "1.0.11",
+  "files": [
+    "dist"
+  ],
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
