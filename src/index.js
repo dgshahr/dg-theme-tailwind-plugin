@@ -1,12 +1,12 @@
-const plugin = require("tailwindcss/plugin");
-const colors = require("./constants/colors");
-const shadows = require("./constants/shadows");
-const base = require("./base");
-const utilities = require("./utilities");
+import plugin from "tailwindcss/plugin";
+import colors from "./constants/colors";
+import shadows from "./constants/shadows";
+import base from "./base";
+import utilities from "./utilities";
 
 const DgThemeTailwindPlugin = plugin(
   function ({ addUtilities, addBase }) {
-    addUtilities(utilities);
+    addUtilities({ ...utilities });
     addBase(base);
   },
   {
@@ -29,4 +29,4 @@ const DgThemeTailwindPlugin = plugin(
   }
 );
 
-module.exports = DgThemeTailwindPlugin;
+export default DgThemeTailwindPlugin;
