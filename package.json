@@ -12,6 +12,9 @@
     "build:base": "yarn build:base:css && yarn build:base:js",
     "build": "yarn build:utilities && yarn build:base"
   },
+  "peerDependencies": {
+    "tailwindcss": ">=3.4.17"
+  },
   "devDependencies": {
     "postcss": "^8.5.4",
     "postcss-cli": "^11.0.0",
