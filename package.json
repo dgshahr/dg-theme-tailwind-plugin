@@ -10,7 +10,7 @@
     "build:base:css": "postcss ./src/base/imports.css -o ./src/base/index.css",
     "build:base:js": "node scripts/css-to-js.js ./src/base",
     "build:base": "yarn build:base:css && yarn build:base:js",
-    "build": "yarn build:utilities && yarn build:base"
+    "build": "yarn build:utilities && yarn build:base && node scripts/move-to-dist.js"
   },
   "peerDependencies": {
     "tailwindcss": ">=3.4.17"
