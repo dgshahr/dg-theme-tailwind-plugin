@@ -21,7 +21,7 @@
   "files": [
     "dist"
   ],
-  "main": "src/index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
   "scripts": {
     "build:utilities:css": "postcss ./src/utilities/imports.css -o ./src/utilities/index.css",
