@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "build:utilities:css": "postcss ./src/utilities/imports.css -o ./src/utilities/index.css",
-    "build:utilities:js": "node src/scripts/css-to-js.js ./src/utilities",
+    "build:utilities:js": "node scripts/css-to-js.js ./src/utilities",
     "build:utilities": "yarn build:utilities:css && yarn build:utilities:js",
     "build:base:css": "postcss ./src/base/imports.css -o ./src/base/index.css",
-    "build:base:js": "node src/scripts/css-to-js.js ./src/base",
+    "build:base:js": "node scripts/css-to-js.js ./src/base",
     "build:base": "yarn build:base:css && yarn build:base:js",
     "build": "yarn build:utilities && yarn build:base"
   },
