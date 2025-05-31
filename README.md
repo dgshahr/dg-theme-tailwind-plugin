@@ -1,6 +1,6 @@
-# Dg shahr tailwind plugin
+# Dgshahr tailwind plugin
 
-A tailwind plugin with dg shahr theme
+A tailwind plugin with Dgshahr theme
 
 ## Run Locally
 
@@ -8,12 +8,6 @@ Install dependencies
 
 ```bash
   yarn
-```
-
-Link package to node_modules and watch for compile tailwind
-
-```bash
-  yarn dev
 ```
 
 And After you are done editing
@@ -28,7 +22,18 @@ Then change current version in `package.json` and run
   npm publish
 ```
 
-## Usage/Examples
+## Usage
+
+**for version 4.1:**
+
+In your `main css file` file
+
+```css
+@import "tailwindcss";
+@plugin "@dgshahr/dg-theme-tailwind-plugin";
+```
+
+**for version 3.4.17:**
 
 In `tailwind.config.js` file
 
