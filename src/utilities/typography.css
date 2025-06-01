@@ -252,3 +252,9 @@
   font-weight: 600;
   line-height: 12px;
 }
+
+.ss02 {
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}

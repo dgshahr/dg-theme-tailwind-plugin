@@ -253,6 +253,12 @@
   line-height: 12px;
 }
 
+.ss02 {
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
