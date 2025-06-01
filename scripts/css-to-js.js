@@ -15,7 +15,7 @@ async function processCSS(dirPath) {
     const jsObject = postcssJs.objectify(root);
 
     // Generate minified JS
-    const jsContent = `export default ${JSON.stringify(jsObject)};`;
+    const jsContent = `module.exports = ${JSON.stringify(jsObject)};`;
     const minified = await minify(jsContent, {
       format: {
         comments: false,
