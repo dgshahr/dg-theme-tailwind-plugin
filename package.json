@@ -1,6 +1,6 @@
 {
   "name": "@dgshahr/dg-theme-tailwind-plugin",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "Tailwind CSS plugin for DGShahr theme",
   "author": "dgshahr",
   "contributes": [
